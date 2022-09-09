@@ -20,7 +20,7 @@ function LoginForm() {
     }
 
     function handleLoginForm(){
-
+        
     }
 
     return (
@@ -36,7 +36,7 @@ function LoginForm() {
                                 <div className='col-md-6 col-lg-7 d-flex align-items-center'>
                                     <div className="card-body p-4 p-lg-5 text-black">
                                         <form onSubmit={handleLoginForm}>
-                                        <img src="https://ninosconvalor.org.bo/wp-content/uploads/2020/01/NCV-Logos-Whites.png" alt="login form" className="img-fluid iconCustom"/>
+                                        <img src="https://o.remove.bg/downloads/159cf645-a04d-4f87-9bc5-579e8fc93eee/logo-ncv-removebg-preview.png" alt="login form" className="img-fluid iconCustom"/>
 
                                             <h5 className="fw-normal mb-3 pb-3">Ingresa con tu cuenta</h5>
 

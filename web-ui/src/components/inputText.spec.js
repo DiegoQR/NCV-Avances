@@ -6,19 +6,19 @@ import InputText from "./InputText.js";
 describe('InputText Component', () => {
     it('renders an input for username', () => {
       render(
-        <InputText type="text" id="input-text-username" lable="Username:" />
+        <InputText type="text" id="input-text-username" lable="Nombre de usuario:" />
       );
 
-      expect(screen.getByRole('label')).toHaveTextContent('Username:');
+      expect(screen.getByRole('label')).toHaveTextContent('Nombre de usuario:');
       expect(screen.getByRole('input')).toHaveAttribute('type', 'text');
     });
   
     it('renders an input for password', () => {
         render(
-          <InputText type="password" id="input-text-password" lable="Password:" /> 
+          <InputText type="password" id="input-text-password" lable="Contrasena:" /> 
         );
   
-        expect(screen.getByRole('label')).toHaveTextContent('Password:');
+        expect(screen.getByRole('label')).toHaveTextContent('Contrasena:');
         expect(screen.getByRole('input')).toHaveAttribute('type', 'password');
       });
   });

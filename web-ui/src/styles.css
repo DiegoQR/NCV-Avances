@@ -4,11 +4,11 @@
 }
 
 .cardCustom {
-  background: rgb(91,204,217);
-  background: linear-gradient(180deg, rgba(91,204,217,1) 0%, rgba(206,236,242,1) 40%);
+  background-color: #F2F2F2;
   border-radius: 1rem;
 }
 
 .iconCustom {
-  height: 100px;
+  width: 120px;
+  height: 90px;
 }
